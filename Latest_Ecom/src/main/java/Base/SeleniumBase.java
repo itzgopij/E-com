@@ -48,8 +48,7 @@ public class SeleniumBase extends Reporter {
 
 		try {
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\Gopi\\Downloads\\chromedriver\\chromedriver.exe");
+				WebDriverManager.chromedriver().setup();				
 				driver = new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				WebDriverManager.firefoxdriver().setup();
@@ -144,7 +143,7 @@ public class SeleniumBase extends Reporter {
 		long number = (long) Math.floor(Math.random() * 900000000L) + 100000000L;
 		try {
 			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(src, new File("./Screenshot/" + number + ".png"));
+			FileUtils.copyFile(src, new File("./Report/" + number + ".png"));
 		} catch (WebDriverException e) {
 			System.out.println("The browser has been closed");
 		} catch (IOException e) {

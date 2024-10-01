@@ -47,7 +47,7 @@ public abstract class Reporter {
 
 				long snapNumber = 100000L;
 				snapNumber = takeSnap();
-				img = MediaEntityBuilder.createScreenCaptureFromPath("./../Screenshot/" + snapNumber + ".png").build();
+				img = MediaEntityBuilder.createScreenCaptureFromPath("./../Report/" + snapNumber + ".png").build();
 			}
 			eachNode.fail(desc, img);
 			//throw new RuntimeException();
