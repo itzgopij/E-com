@@ -21,7 +21,7 @@ public abstract class Reporter {
 	@BeforeSuite
 	public void startReport() {
 
-		reporter = new ExtentSparkReporter("./Screenshot/report.html");
+		reporter = new ExtentSparkReporter("./Report/report.html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 	}

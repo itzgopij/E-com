@@ -23,15 +23,6 @@ public class ProjectSpecificMethods extends SeleniumBase {
 		eachNode = test.createNode(testCaseName);
 		startApplication(prop.getProperty("browser"), prop.getProperty("url"));
 
-		/*
-		 * WebElement email = locateElement("id", "userEmail"); clearAndType(email,
-		 * prop.getProperty("username")); WebElement password = locateElement("id",
-		 * "userPassword"); clearAndType(password, prop.getProperty("password"));
-		 * WebElement submit = locateElement("id", "login");
-		 * click(submit,"Signin button"); verifyIsDisplayed(locateElement("css",
-		 * "[class*='toast-title']"), "Login Successfully");
-		 */
-
 	}
 
 	@AfterClass
