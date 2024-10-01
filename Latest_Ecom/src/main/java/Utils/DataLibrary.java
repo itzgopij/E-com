@@ -13,7 +13,7 @@ public class DataLibrary {
 	public static Object[][] readExcelData(String dataSheetName, String sheetName) throws IOException {
 		
 		DataFormatter formatter = new DataFormatter();
-		XSSFWorkbook workBook = new XSSFWorkbook("./Details/"+dataSheetName+".xlsx");
+		XSSFWorkbook workBook = new XSSFWorkbook("./Data/"+dataSheetName+".xlsx");
 		XSSFSheet sheet = workBook.getSheet(sheetName);
 		int rowCount = sheet.getLastRowNum();
 		int columnCount = sheet.getRow(0).getLastCellNum();

@@ -25,6 +25,8 @@ public class TS001_LoginPage extends SeleniumBase {
 		verifyIsDisplayed(locateElement("css", "[class*='toast-title']"), "Login Successfully");
 		return this ;
 	}
+	
+	
 
 	
 }
