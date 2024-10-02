@@ -15,7 +15,7 @@ public class ProjectSpecificMethods extends SeleniumBase {
 
 	@BeforeSuite
 	public void loadUserData() throws IOException {
-		loadData("data");
+		loadData("config");
 	}
 
 	@BeforeClass

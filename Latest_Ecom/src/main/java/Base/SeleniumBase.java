@@ -125,7 +125,7 @@ public class SeleniumBase extends Reporter {
 	public void loadData(String fileName) throws IOException {
 		prop = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\Data\\data.properties");
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\Data\\"+fileName+".properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			reportSteps("The file " + fileName + " is not found", "FAIL");
