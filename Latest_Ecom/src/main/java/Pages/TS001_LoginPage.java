@@ -22,6 +22,7 @@ public class TS001_LoginPage extends SeleniumBase {
 		clearAndType(password, passWord);
 		WebElement submit = locateElement("id", "login");
 		click(submit,"Signin button");
+		webDriverWaitTillElementVisible(locateElement("css", "[class*='toast-title']"));
 		verifyIsDisplayed(locateElement("css", "[class*='toast-title']"), "Login Successfully");
 		return this ;
 	}

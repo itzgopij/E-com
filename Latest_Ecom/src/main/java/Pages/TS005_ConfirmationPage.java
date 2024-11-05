@@ -24,6 +24,7 @@ public class TS005_ConfirmationPage extends SeleniumBase {
 		String prodcut = getElementText(locateElement("css", "div[class='title']"));
 		AssertEquals(prodcut, prop.getProperty("product"));
 		scrollUp();
+		webDriverWaitTillElementVisible(locateElement("xpath", "//button[text()=' Sign Out ']"));
 		click(locateElement("xpath", "//button[text()=' Sign Out ']"));
 		
 		return this; 

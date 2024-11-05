@@ -248,7 +248,7 @@ public class SeleniumBase extends Reporter {
 
 	public void scrollUp() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,-500)");
+		js.executeScript("window.scrollTo(0,0)");
 	}
 
 	public void scrollToElement(WebElement ele) {

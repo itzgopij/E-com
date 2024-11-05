@@ -20,6 +20,7 @@ public class TS004_CheckOut extends SeleniumBase {
 
 	public TS004_CheckOut placeOrder() {
 
+		scrollDown();
 		WebElement month = locateElement("css", "[class*='input ddl']:first-of-type");
 		selectDropdownByText(month, "08");
 
