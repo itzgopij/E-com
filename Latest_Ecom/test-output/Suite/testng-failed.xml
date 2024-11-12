@@ -3,19 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.TC005_ConfirmationPage">
+      <class name="Tests.TC001_LoginPage">
         <methods>
-          <include name="setvalues"/>
           <include name="stopReport"/>
           <include name="loadUserData"/>
           <include name="tearDown"/>
           <include name="startReport"/>
           <include name="unloadUserData"/>
+          <include name="loginApp"/>
           <include name="report"/>
-          <include name="placeOrder" invocation-numbers="0"/>
+          <include name="setvalues"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- Tests.TC005_ConfirmationPage -->
+      </class> <!-- Tests.TC001_LoginPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

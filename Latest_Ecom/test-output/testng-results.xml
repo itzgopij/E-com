@@ -2,24 +2,24 @@
 <testng-results ignored="16" total="21" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T16:26:01 IST" name="Suite" finished-at="2024-11-05T16:26:42 IST" duration-ms="41350">
+  <suite started-at="2024-11-12T17:29:20 IST" name="Suite" finished-at="2024-11-12T17:30:20 IST" duration-ms="60442">
     <groups>
     </groups>
-    <test started-at="2024-11-05T16:26:01 IST" name="Test" finished-at="2024-11-05T16:26:42 IST" duration-ms="41350">
+    <test started-at="2024-11-12T17:29:20 IST" name="Test" finished-at="2024-11-12T17:30:20 IST" duration-ms="60442">
       <class name="Tests.TC004_CheckOut">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC004_CheckOut@4d1c005e]" started-at="2024-11-05T16:26:01 IST" name="setvalues" finished-at="2024-11-05T16:26:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC004_CheckOut@4d1c005e]" started-at="2024-11-05T16:26:19 IST" name="report" finished-at="2024-11-05T16:26:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:44 IST" name="report" finished-at="2024-11-12T17:29:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC004_CheckOut@4d1c005e]" started-at="2024-11-05T16:26:19 IST" name="setUp" finished-at="2024-11-05T16:26:22 IST" duration-ms="3271" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:44 IST" name="setUp" finished-at="2024-11-12T17:29:52 IST" duration-ms="7829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC004_CheckOut@4d1c005e]" started-at="2024-11-05T16:26:23 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-05T16:26:29 IST" duration-ms="6698" status="PASS">
+        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:52 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-12T17:30:00 IST" duration-ms="8484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,67 +35,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC004_CheckOut@4d1c005e]" started-at="2024-11-05T16:26:29 IST" name="tearDown" finished-at="2024-11-05T16:26:29 IST" duration-ms="119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- Tests.TC004_CheckOut -->
-      <class name="Tests.TC002_AddProductToCart">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC002_AddProductToCart@231f98ef]" started-at="2024-11-05T16:26:01 IST" name="setvalues" finished-at="2024-11-05T16:26:01 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC002_AddProductToCart@231f98ef]" started-at="2024-11-05T16:26:08 IST" name="report" finished-at="2024-11-05T16:26:08 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC002_AddProductToCart@231f98ef]" started-at="2024-11-05T16:26:08 IST" name="setUp" finished-at="2024-11-05T16:26:11 IST" duration-ms="3291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addProduct(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC002_AddProductToCart@231f98ef]" started-at="2024-11-05T16:26:11 IST" name="addProduct" data-provider="fetchData" finished-at="2024-11-05T16:26:12 IST" duration-ms="800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adithya5012@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Spartan123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC002_AddProductToCart@231f98ef]" started-at="2024-11-05T16:26:12 IST" name="tearDown" finished-at="2024-11-05T16:26:12 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Tests.TC002_AddProductToCart -->
       <class name="Tests.TC001_LoginPage">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:00 IST" name="startReport" finished-at="2024-11-05T16:26:01 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:19 IST" name="startReport" finished-at="2024-11-12T17:29:20 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="loadUserData()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:01 IST" name="loadUserData" finished-at="2024-11-05T16:26:01 IST" depends-on-methods="Utils.Reporter.startReport" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="loadUserData()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="loadUserData" finished-at="2024-11-12T17:29:20 IST" depends-on-methods="Utils.Reporter.startReport" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadUserData -->
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:01 IST" name="setvalues" finished-at="2024-11-05T16:26:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:01 IST" name="report" finished-at="2024-11-05T16:26:01 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="report" finished-at="2024-11-12T17:29:20 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:01 IST" name="setUp" finished-at="2024-11-05T16:26:06 IST" duration-ms="4858" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="setUp" finished-at="2024-11-12T17:29:25 IST" duration-ms="5126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginApp(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:07 IST" name="loginApp" data-provider="fetchData" finished-at="2024-11-05T16:26:07 IST" duration-ms="817" status="PASS">
+        <test-method signature="loginApp(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:27 IST" name="loginApp" data-provider="fetchData" finished-at="2024-11-12T17:29:30 IST" duration-ms="2308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,33 +73,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:07 IST" name="tearDown" finished-at="2024-11-05T16:26:08 IST" duration-ms="332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="unloadUserData()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:42 IST" name="unloadUserData" finished-at="2024-11-05T16:26:42 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="unloadUserData()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:30:21 IST" name="unloadUserData" finished-at="2024-11-12T17:30:21 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unloadUserData -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:Tests.TC001_LoginPage@1caa0244]" started-at="2024-11-05T16:26:42 IST" name="stopReport" finished-at="2024-11-05T16:26:43 IST" depends-on-methods="Base.ProjectSpecificMethods.unloadUserData" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:30:21 IST" name="stopReport" finished-at="2024-11-12T17:30:22 IST" depends-on-methods="Base.ProjectSpecificMethods.unloadUserData" duration-ms="1287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
       </class> <!-- Tests.TC001_LoginPage -->
-      <class name="Tests.TC005_ConfirmationPage">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC005_ConfirmationPage@70ed52de]" started-at="2024-11-05T16:26:01 IST" name="setvalues" finished-at="2024-11-05T16:26:01 IST" duration-ms="0" status="PASS">
+      <class name="Tests.TC002_AddProductToCart">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC005_ConfirmationPage@70ed52de]" started-at="2024-11-05T16:26:29 IST" name="setUp" finished-at="2024-11-05T16:26:32 IST" duration-ms="3084" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC005_ConfirmationPage@70ed52de]" started-at="2024-11-05T16:26:29 IST" name="report" finished-at="2024-11-05T16:26:29 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:30 IST" name="report" finished-at="2024-11-12T17:29:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC005_ConfirmationPage@70ed52de]" started-at="2024-11-05T16:26:33 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-05T16:26:42 IST" duration-ms="9386" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:30 IST" name="setUp" finished-at="2024-11-12T17:29:34 IST" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProduct(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:34 IST" name="addProduct" data-provider="fetchData" finished-at="2024-11-12T17:29:35 IST" duration-ms="1569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adithya5012@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spartan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- Tests.TC002_AddProductToCart -->
+      <class name="Tests.TC005_ConfirmationPage">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:00 IST" name="report" finished-at="2024-11-12T17:30:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:00 IST" name="setUp" finished-at="2024-11-12T17:30:02 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:02 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-12T17:30:20 IST" duration-ms="18033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,25 +141,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC005_ConfirmationPage@70ed52de]" started-at="2024-11-05T16:26:42 IST" name="tearDown" finished-at="2024-11-05T16:26:42 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- Tests.TC005_ConfirmationPage -->
       <class name="Tests.TC003_MyCart">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC003_MyCart@221a3fa4]" started-at="2024-11-05T16:26:01 IST" name="setvalues" finished-at="2024-11-05T16:26:01 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC003_MyCart@221a3fa4]" started-at="2024-11-05T16:26:12 IST" name="setUp" finished-at="2024-11-05T16:26:16 IST" duration-ms="3317" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:35 IST" name="setUp" finished-at="2024-11-12T17:29:39 IST" duration-ms="3849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC003_MyCart@221a3fa4]" started-at="2024-11-05T16:26:12 IST" name="report" finished-at="2024-11-05T16:26:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:35 IST" name="report" finished-at="2024-11-12T17:29:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method signature="verifyCart(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC003_MyCart@221a3fa4]" started-at="2024-11-05T16:26:16 IST" name="verifyCart" data-provider="fetchData" finished-at="2024-11-05T16:26:19 IST" duration-ms="3374" status="PASS">
+        <test-method signature="verifyCart(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:39 IST" name="verifyCart" data-provider="fetchData" finished-at="2024-11-12T17:29:44 IST" duration-ms="4466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,10 +171,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC003_MyCart@221a3fa4]" started-at="2024-11-05T16:26:19 IST" name="tearDown" finished-at="2024-11-05T16:26:19 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- Tests.TC003_MyCart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
