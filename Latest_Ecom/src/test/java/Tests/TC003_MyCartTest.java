@@ -7,16 +7,13 @@ import Base.ProjectSpecificMethods;
 import Pages.TS001_LoginPage;
 import Pages.TS002_AddProductToCart;
 import Pages.TS003_MyCart;
-import Pages.TS004_CheckOut;
 
-public class TC004_CheckOut extends ProjectSpecificMethods{
-	
-
+public class TC003_MyCartTest extends ProjectSpecificMethods{
 	
 	@BeforeTest
 	public void setvalues() {
-		testCaseName = "Check Out";
-		testDescription = "Placing Order";
+		testCaseName = "Verify Cart";
+		testDescription = "Verifying the Cart";
 		authorName = "Gopi";
 		category = "SMOKE";
 		environment = "STAGE";
@@ -27,7 +24,7 @@ public class TC004_CheckOut extends ProjectSpecificMethods{
 
 	@Test  (dataProvider="fetchData") 
 	
-	public void placeOrder(String username, String password) throws InterruptedException {
+	public void verifyCart(String username, String password) throws InterruptedException {
 		
 		new TS001_LoginPage(driver, eachNode)
 		.LoginPage(username, password);
@@ -38,12 +35,7 @@ public class TC004_CheckOut extends ProjectSpecificMethods{
 		new TS003_MyCart(driver, eachNode)
 		.checkout();
 		
-		new TS004_CheckOut(driver, eachNode)
-		.placeOrder();
-		
 		
 	}
-
-
 
 }

@@ -3,19 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.TC005_ConfirmationPage">
+      <class name="Tests.TC006_OrdersPageTest">
         <methods>
-          <include name="setvalues"/>
           <include name="stopReport"/>
+          <include name="setvalues"/>
           <include name="loadUserData"/>
-          <include name="tearDown"/>
           <include name="startReport"/>
+          <include name="placeOrder" invocation-numbers="0"/>
           <include name="unloadUserData"/>
           <include name="report"/>
           <include name="setUp"/>
-          <include name="placeOrder" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Tests.TC005_ConfirmationPage -->
+      </class> <!-- Tests.TC006_OrdersPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

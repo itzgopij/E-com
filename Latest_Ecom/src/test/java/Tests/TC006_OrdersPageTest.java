@@ -9,13 +9,14 @@ import Pages.TS002_AddProductToCart;
 import Pages.TS003_MyCart;
 import Pages.TS004_CheckOut;
 import Pages.TS005_ConfirmationPage;
+import Pages.TS006_OrdersPage;
 
-public class TC005_ConfirmationPage extends ProjectSpecificMethods {
-
+public class TC006_OrdersPageTest extends ProjectSpecificMethods{
+	
 	@BeforeTest
 	public void setvalues() {
-		testCaseName = "Verify Confirmation Page";
-		testDescription = "Verify Confirmation Page";
+		testCaseName = "Verify orders Page";
+		testDescription = "Verify orders Page";
 		authorName = "Gopi";
 		category = "SMOKE";
 		environment = "STAGE";
@@ -37,7 +38,10 @@ public class TC005_ConfirmationPage extends ProjectSpecificMethods {
 		new TS004_CheckOut(driver, eachNode).placeOrder();
 
 		new TS005_ConfirmationPage(driver, eachNode).verifyConfimationPage();
+		
+		new TS006_OrdersPage(driver, eachNode).verifyOrder();
 
 	}
+
 
 }

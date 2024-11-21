@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import Base.ProjectSpecificMethods;
 import Pages.TS001_LoginPage;
 
-public class TC001_LoginPage extends ProjectSpecificMethods {
+public class TC001_LoginPageTest extends ProjectSpecificMethods {
 	
 	@BeforeTest
 	public void setvalues() {

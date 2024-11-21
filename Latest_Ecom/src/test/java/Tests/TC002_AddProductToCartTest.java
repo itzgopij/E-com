@@ -7,7 +7,7 @@ import Base.ProjectSpecificMethods;
 import Pages.TS001_LoginPage;
 import Pages.TS002_AddProductToCart;
 
-public class TC002_AddProductToCart extends ProjectSpecificMethods {
+public class TC002_AddProductToCartTest extends ProjectSpecificMethods {
 
 	@BeforeTest
 	public void setvalues() {

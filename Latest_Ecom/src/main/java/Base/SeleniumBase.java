@@ -255,6 +255,20 @@ public class SeleniumBase extends Reporter {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", ele);
 	}
+	
+	public void scrollToElementAndClick(WebElement ele) throws InterruptedException {
+		try{
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView(true);", ele);
+			webDriverWaitTillElementVisible(ele);
+			ele.click();
+		}catch (InvalidElementStateException e) {
+			reportSteps("The element " + ele.getText() + " could not be clicked", "FAIL");
+		} catch (WebDriverException e) {
+			reportSteps("Unknown exception occured while fetching the title", "FAIL");
+		}
+		
+	}
 
 	public void moveToElement(WebElement ele) {
 		try {

@@ -3,11 +3,12 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="Tests.TC001_LoginPage" />
-			<class name="Tests.TC002_AddProductToCart" />
-			<class name="Tests.TC003_MyCart" />
-			<class name="Tests.TC004_CheckOut" />
-			<class name="Tests.TC005_ConfirmationPage" />
+			<class name="Tests.TC001_LoginPageTest" />
+			<class name="Tests.TC002_AddProductToCartTest" />
+			<class name="Tests.TC003_MyCartTest" />
+			<class name="Tests.TC004_CheckOutTest" />
+			<class name="Tests.TC005_ConfirmationPageTest" />
+			<class name="Tests.TC006_OrdersPageTest" />
 		</classes>
 	</test> 
-</suite> 
+</suite>

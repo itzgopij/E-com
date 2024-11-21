@@ -14,7 +14,7 @@ public class TS005_ConfirmationPage extends SeleniumBase {
 		this.eachNode = eachNode;
 	}
 
-	public TS005_ConfirmationPage verifyConfimationPage() {
+	public TS005_ConfirmationPage verifyConfimationPage() throws InterruptedException {
 
 		webDriverWaitTillElementVisible(locateElement("css", "[class*='toast-title']"));
 		verifyIsDisplayed(locateElement("css", "[class*='toast-title']"), "Order placed successfully");
@@ -23,12 +23,9 @@ public class TS005_ConfirmationPage extends SeleniumBase {
 		verifyIsDisplayed(locateElement("css", "tr[class='ng-star-inserted']"), "Order ID");
 		String prodcut = getElementText(locateElement("css", "div[class='title']"));
 		AssertEquals(prodcut, prop.getProperty("product"));
-		scrollUp();
-		scrollUp();
-		webDriverWaitTillElementVisible(locateElement("xpath", "//button[text()=' Sign Out ']"));
-		click(locateElement("xpath", "//button[text()=' Sign Out ']")); //
-		webDriverWaitTillElementVisible(locateElement("id", "toast-container"));
-		verifyIsDisplayed(locateElement("id", "toast-container"), "Logout Successfully");
+		scrollToElementAndClick(locateElement("xpath", "//label[@routerlink='/dashboard/myorders']"));
+		//click(locateElement("xpath", "//button[@routerlink='/dashboard/myorders']"), "Orders");
+		
 
 		return this;
 	}

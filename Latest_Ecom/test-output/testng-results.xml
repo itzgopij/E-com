@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="21" passed="5" failed="0" skipped="0">
+<testng-results ignored="20" total="26" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-12T17:29:20 IST" name="Suite" finished-at="2024-11-12T17:30:20 IST" duration-ms="60442">
+  <suite started-at="2024-11-21T15:00:08 IST" name="Suite" finished-at="2024-11-21T15:01:17 IST" duration-ms="69055">
     <groups>
     </groups>
-    <test started-at="2024-11-12T17:29:20 IST" name="Test" finished-at="2024-11-12T17:30:20 IST" duration-ms="60442">
-      <class name="Tests.TC004_CheckOut">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="0" status="PASS">
+    <test started-at="2024-11-21T15:00:08 IST" name="Test" finished-at="2024-11-21T15:01:17 IST" duration-ms="69055">
+      <class name="Tests.TC005_ConfirmationPageTest">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC005_ConfirmationPageTest@8462f31]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:44 IST" name="report" finished-at="2024-11-12T17:29:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC005_ConfirmationPageTest@8462f31]" started-at="2024-11-21T15:00:47 IST" name="report" finished-at="2024-11-21T15:00:47 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:44 IST" name="setUp" finished-at="2024-11-12T17:29:52 IST" duration-ms="7829" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC005_ConfirmationPageTest@8462f31]" started-at="2024-11-21T15:00:47 IST" name="setUp" finished-at="2024-11-21T15:00:50 IST" duration-ms="3695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC004_CheckOut@2b40ff9c]" started-at="2024-11-12T17:29:52 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-12T17:30:00 IST" duration-ms="8484" status="PASS">
+        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC005_ConfirmationPageTest@8462f31]" started-at="2024-11-21T15:00:51 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-21T15:01:02 IST" duration-ms="10877" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,29 +35,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-      </class> <!-- Tests.TC004_CheckOut -->
-      <class name="Tests.TC001_LoginPage">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:19 IST" name="startReport" finished-at="2024-11-12T17:29:20 IST" duration-ms="533" status="PASS">
+      </class> <!-- Tests.TC005_ConfirmationPageTest -->
+      <class name="Tests.TC001_LoginPageTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:07 IST" name="startReport" finished-at="2024-11-21T15:00:08 IST" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="loadUserData()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="loadUserData" finished-at="2024-11-12T17:29:20 IST" depends-on-methods="Utils.Reporter.startReport" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="loadUserData()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:08 IST" name="loadUserData" finished-at="2024-11-21T15:00:08 IST" depends-on-methods="Utils.Reporter.startReport" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadUserData -->
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="report" finished-at="2024-11-12T17:29:20 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:08 IST" name="report" finished-at="2024-11-21T15:00:08 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:20 IST" name="setUp" finished-at="2024-11-12T17:29:25 IST" duration-ms="5126" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:08 IST" name="setUp" finished-at="2024-11-21T15:00:14 IST" duration-ms="5471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginApp(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:29:27 IST" name="loginApp" data-provider="fetchData" finished-at="2024-11-12T17:29:30 IST" duration-ms="2308" status="PASS">
+        <test-method signature="loginApp(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:00:15 IST" name="loginApp" data-provider="fetchData" finished-at="2024-11-21T15:00:17 IST" duration-ms="1997" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,89 +73,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="unloadUserData()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:30:21 IST" name="unloadUserData" finished-at="2024-11-12T17:30:21 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="unloadUserData()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:01:17 IST" name="unloadUserData" finished-at="2024-11-21T15:01:17 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unloadUserData -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:Tests.TC001_LoginPage@14028087]" started-at="2024-11-12T17:30:21 IST" name="stopReport" finished-at="2024-11-12T17:30:22 IST" depends-on-methods="Base.ProjectSpecificMethods.unloadUserData" duration-ms="1287" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:Tests.TC001_LoginPageTest@5386659f]" started-at="2024-11-21T15:01:17 IST" name="stopReport" finished-at="2024-11-21T15:01:19 IST" depends-on-methods="Base.ProjectSpecificMethods.unloadUserData" duration-ms="1271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
-      </class> <!-- Tests.TC001_LoginPage -->
-      <class name="Tests.TC002_AddProductToCart">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="0" status="PASS">
+      </class> <!-- Tests.TC001_LoginPageTest -->
+      <class name="Tests.TC003_MyCartTest">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC003_MyCartTest@7c137fd5]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:30 IST" name="report" finished-at="2024-11-12T17:29:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC003_MyCartTest@7c137fd5]" started-at="2024-11-21T15:00:23 IST" name="report" finished-at="2024-11-21T15:00:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:30 IST" name="setUp" finished-at="2024-11-12T17:29:34 IST" duration-ms="3832" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC003_MyCartTest@7c137fd5]" started-at="2024-11-21T15:00:23 IST" name="setUp" finished-at="2024-11-21T15:00:25 IST" duration-ms="1428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProduct(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC002_AddProductToCart@6440112d]" started-at="2024-11-12T17:29:34 IST" name="addProduct" data-provider="fetchData" finished-at="2024-11-12T17:29:35 IST" duration-ms="1569" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adithya5012@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Spartan123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-      </class> <!-- Tests.TC002_AddProductToCart -->
-      <class name="Tests.TC005_ConfirmationPage">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:00 IST" name="report" finished-at="2024-11-12T17:30:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:00 IST" name="setUp" finished-at="2024-11-12T17:30:02 IST" duration-ms="2058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC005_ConfirmationPage@24569dba]" started-at="2024-11-12T17:30:02 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-12T17:30:20 IST" duration-ms="18033" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adithya5012@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Spartan123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrder -->
-      </class> <!-- Tests.TC005_ConfirmationPage -->
-      <class name="Tests.TC003_MyCart">
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:20 IST" name="setvalues" finished-at="2024-11-12T17:29:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:35 IST" name="setUp" finished-at="2024-11-12T17:29:39 IST" duration-ms="3849" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:35 IST" name="report" finished-at="2024-11-12T17:29:35 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method signature="verifyCart(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC003_MyCart@183ec003]" started-at="2024-11-12T17:29:39 IST" name="verifyCart" data-provider="fetchData" finished-at="2024-11-12T17:29:44 IST" duration-ms="4466" status="PASS">
+        <test-method signature="verifyCart(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC003_MyCartTest@7c137fd5]" started-at="2024-11-21T15:00:25 IST" name="verifyCart" data-provider="fetchData" finished-at="2024-11-21T15:00:33 IST" duration-ms="8120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +111,97 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCart -->
-      </class> <!-- Tests.TC003_MyCart -->
+      </class> <!-- Tests.TC003_MyCartTest -->
+      <class name="Tests.TC004_CheckOutTest">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC004_CheckOutTest@451001e5]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC004_CheckOutTest@451001e5]" started-at="2024-11-21T15:00:33 IST" name="report" finished-at="2024-11-21T15:00:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC004_CheckOutTest@451001e5]" started-at="2024-11-21T15:00:33 IST" name="setUp" finished-at="2024-11-21T15:00:37 IST" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC004_CheckOutTest@451001e5]" started-at="2024-11-21T15:00:37 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-21T15:00:47 IST" duration-ms="10023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adithya5012@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spartan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- Tests.TC004_CheckOutTest -->
+      <class name="Tests.TC006_OrdersPageTest">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC006_OrdersPageTest@496bc455]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC006_OrdersPageTest@496bc455]" started-at="2024-11-21T15:01:02 IST" name="report" finished-at="2024-11-21T15:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC006_OrdersPageTest@496bc455]" started-at="2024-11-21T15:01:02 IST" name="setUp" finished-at="2024-11-21T15:01:05 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC006_OrdersPageTest@496bc455]" started-at="2024-11-21T15:01:05 IST" name="placeOrder" data-provider="fetchData" finished-at="2024-11-21T15:01:17 IST" duration-ms="12002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adithya5012@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spartan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- Tests.TC006_OrdersPageTest -->
+      <class name="Tests.TC002_AddProductToCartTest">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Tests.TC002_AddProductToCartTest@5890e879]" started-at="2024-11-21T15:00:08 IST" name="setvalues" finished-at="2024-11-21T15:00:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.TC002_AddProductToCartTest@5890e879]" started-at="2024-11-21T15:00:17 IST" name="report" finished-at="2024-11-21T15:00:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC002_AddProductToCartTest@5890e879]" started-at="2024-11-21T15:00:17 IST" name="setUp" finished-at="2024-11-21T15:00:21 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProduct(java.lang.String,java.lang.String)[pri:0, instance:Tests.TC002_AddProductToCartTest@5890e879]" started-at="2024-11-21T15:00:21 IST" name="addProduct" data-provider="fetchData" finished-at="2024-11-21T15:00:23 IST" duration-ms="1789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adithya5012@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spartan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- Tests.TC002_AddProductToCartTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
